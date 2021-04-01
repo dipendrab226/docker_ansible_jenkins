@@ -1,2 +1,2 @@
 [webserver]
-192.168.0.27
+192.168.0.27 ansible_user=dibs ansible_sudo_pass=2632
