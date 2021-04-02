@@ -9,7 +9,7 @@
     - name: Install docker
       apt:
         name: docker
-        state: present
+        state: latest
     - name: start docker
       service:
         name: docker
