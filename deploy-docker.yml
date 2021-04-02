@@ -14,7 +14,7 @@
       service:
         name: docker
         state: started
-        enabled: yes
+        enabled: yes      # make docker restart when the host reboots
     - name: Install docker-py python module
       pip:
         name: docker-py
