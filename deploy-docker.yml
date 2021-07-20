@@ -22,7 +22,7 @@
     - name: Start the container
       docker_container:
         name: jen_ans_doc
-        image: "dibsbharatidocker/jen_ans_doc:{{DOCKER_TAG}}"
+        image: "dibsbharatidocker/jen_ans_doc:f6b691a"
         state: started
         published_ports:
           - 0.0.0.0:8080:8080
