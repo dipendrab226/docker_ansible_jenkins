@@ -2,9 +2,9 @@
 - hosts: webserver
   become: True
   tasks:
-    - name: Install python pip3
+    - name: Install python pip
       apt:
-        name: python3-pip
+        name: python-pip
         state: present
     - name: Install docker
       apt:
