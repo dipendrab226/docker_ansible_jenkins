@@ -4,9 +4,9 @@
   become: true
 
   tasks:
-#   - name: Install OpenJDK
-#     apt:
-#       name: openjdk-11-jre-headless
+  - name: Install OpenJDK
+    apt:
+      name: openjdk-11-jre-headless
 
   - name: download tomcat server packages
     get_url:
