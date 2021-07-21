@@ -16,9 +16,9 @@
 
   - name: extract tomcat packages
     unarchive:
-      src: /usr/local/apache-tomcat-9.0.44.tar.gz
+      src: /usr/local/apache-tomcat-9.0.50.tar.gz
       dest: /usr/local
       remote_src: yes
 
   - name: start tomcat services
-    shell: nohup /usr/local/apache-tomcat-9.0.44/bin/startup.sh
+    shell: nohup /usr/local/apache-tomcat-9.0.50/bin/startup.sh
